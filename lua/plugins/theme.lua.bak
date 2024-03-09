@@ -1,0 +1,11 @@
+return {
+ 'dracula/vim', 
+ name = "dracula", 
+  opts = {
+  },
+  config = function()
+    vim.cmd("colorscheme dracula") -- Replace this with your favorite colorscheme
+  end
+ 
+
+}
