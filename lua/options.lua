@@ -13,8 +13,12 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 -- Case searching options
 vim.opt.ignorecase = true
-vim.opt.smartcase = true	
+vim.opt.smartcase = true
 
+--new files
+vim.o.splitbelow = true				-- split go below
+vim.o.splitright = true				-- vertical split to the right
+vim.o.showtabline = 2					-- always show the tab line
 -- Set smaller cmd height
 vim.o.cmdheight = 1
 -- Setup OS copy/paste 

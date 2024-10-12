@@ -25,7 +25,8 @@ dependencies = { "rafamadriz/friendly-snippets" }, },
         require("mason").setup()
         require("mason-lspconfig").setup({
             ensure_installed = {
-               "html", "cssls", "quick_lint_js",
+               "html", "cssls", "quick_lint_js", "tailwindcss",
+        "ts_ls",
             },
             handlers = {
                 function(server_name) -- default handler (optional)
