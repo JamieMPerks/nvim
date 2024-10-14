@@ -28,8 +28,6 @@ return {
 				"cssls",
 				"tailwindcss",
 				"ts_ls",
-				"prettierd",
-				"stylua",
 			},
 			handlers = {
 				function(server_name) -- default handler (optional)
